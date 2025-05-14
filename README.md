@@ -16,8 +16,8 @@ Through simplified syntax and coastal metaphors, it makes learning compiler conc
 ---
 
 ## 👤 Student Information
-**Student Name:** Vanraj Jhala  
-**Enrollment ID:** 22000419
+**Student Name:** Nishil Patel  
+**Enrollment ID:** 22000399
 
 ---
 
