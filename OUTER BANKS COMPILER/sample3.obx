@@ -1,0 +1,6 @@
+pogues hideout
+    cleo jj i = 0;
+    ward (i highwater 5) hideout
+        trade(i);
+    hideout
+hideout

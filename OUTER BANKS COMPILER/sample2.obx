@@ -1,0 +1,7 @@
+pogues hideout
+    jj x;
+    treasure x = 10;
+    ward (x highwater 5) hideout
+        trade(x);
+    hideout
+hideout

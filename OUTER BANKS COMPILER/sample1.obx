@@ -1,0 +1,5 @@
+pogues hideout
+    jj x;
+    treasure x = 42;
+    trade(x);
+hideout

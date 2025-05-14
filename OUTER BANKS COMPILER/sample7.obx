@@ -1,0 +1,7 @@
+pogues hideout
+    search greet hideout
+        trade("Hello, Outer Banks!");
+    hideout
+
+    dive greet();
+hideout

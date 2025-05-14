@@ -1,0 +1,11 @@
+pogues hideout
+    jj score;
+    treasure score = 85;
+
+    ward (score highwater 90) hideout
+        trade("A+");
+    hideout
+    topper hideout
+        trade("Not A+");
+    hideout
+hideout

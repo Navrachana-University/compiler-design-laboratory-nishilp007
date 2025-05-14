@@ -1,0 +1,12 @@
+pogues hideout
+    search sayHi hideout
+        trade("Hi there!");
+    hideout
+
+    search sayBye hideout
+        trade("Goodbye!");
+    hideout
+
+    dive sayHi();
+    dive sayBye();
+hideout

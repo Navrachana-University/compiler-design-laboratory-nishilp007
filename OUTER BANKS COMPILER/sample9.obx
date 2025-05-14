@@ -1,0 +1,6 @@
+pogues hideout
+    jj age;
+    treasure age = 42;
+
+    trade(age);
+hideout

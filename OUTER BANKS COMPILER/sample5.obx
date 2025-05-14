@@ -1,0 +1,5 @@
+pogues hideout
+    jj age;
+    loot(age);
+    trade(age);
+hideout

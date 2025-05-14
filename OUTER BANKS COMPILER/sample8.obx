@@ -1,0 +1,14 @@
+pogues hideout
+    jj age;
+    treasure age = 18;
+
+    ward (age highwater 18) hideout
+        trade("You are an adult.");
+        ward (age highwater 60) hideout
+            trade("Senior discount available!");
+        hideout
+    hideout
+    topper hideout
+        trade("You are a minor.");
+    hideout
+hideout

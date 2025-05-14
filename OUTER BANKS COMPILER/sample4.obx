@@ -1,0 +1,7 @@
+pogues hideout
+    search helloWorld hideout
+        trade("Hello from OBX!");
+    hideout
+
+    dive helloWorld();
+hideout
