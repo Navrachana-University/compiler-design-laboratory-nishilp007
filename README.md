@@ -1,4 +1,4 @@
-# 🌊 Outer Banks Compiler: A Coastal-Inspired Programming Tool 
+# 🌊 Outer Banks Compiler: A Coastal-Inspired Programming Tool
 
 ## 📜 Project Description
 The **Outer Banks Compiler** is a themed programming language and compiler project inspired by the charm and raw energy of the Outer Banks. Built using powerful tools like **Flex** and **Bison**, it brings a structured yet aesthetically engaging approach to programming language design.
@@ -16,7 +16,7 @@ Through simplified syntax and coastal metaphors, it makes learning compiler conc
 ---
 
 ## 👤 Student Information
-**Student Name:** Nishil Patel  
+**Student Name:** Nishil Patel
 **Enrollment ID:** 22000399
 
 ---
@@ -48,31 +48,43 @@ Through simplified syntax and coastal metaphors, it makes learning compiler conc
    ```bash
    ./obxc sample1.obx
 
-Check the output:
-Intermediate code is saved in output.tac.
-📄 Example Program (sample1.obx)
-obx
+### 📄 Example Program (sample1.obx) 
+    
+      pogues hideout jj x;
+      treasure x = 42;
+      trade(x); 
+      hideout 
 
-Copy
-pogues hideout
-    jj x;
-    treasure x = 42;
-    trade(x);
-hideout
-💻 System Requirements
-GCC Compiler
-Flex (Fast Lexical Analyzer)
-Bison (GNU Parser Generator)
-Unix/Linux shell (preferred)
-🚤 Key Features
-Custom language syntax themed on the Outer Banks
-Tokenization with Flex
-Syntax parsing with Bison
-Intermediate Code Generation (3AC)
-Modular file structure
-Lightweight and educational
-🙏 Acknowledgments
-Prof. Vaibhavi Patel for insightful mentorship and continuous support.
-Nishil Patel for valuable collaboration and testing efforts.
-📚 Inspiration
+
+
+### 💻 System Requirements 
+
+- GCC Compiler Flex (Fast Lexical Analyzer) 
+
+- Bison (GNU Parser Generator) Unix/Linux shell (preferred) 
+
+
+
+### 🚤 Key Features 
+
+- Custom language syntax themed on the Outer Banks 
+
+- Tokenization with Flex Syntax parsing with Bison 
+
+- Intermediate Code Generation (3AC) Modular file structure 
+
+- Lightweight and educational 
+
+
+
+### 🙏 Acknowledgments 
+
+- Prof. Vaibhavi Patel for insightful mentorship and continuous support.
+
+- Nishil Patel for valuable collaboration and testing efforts. 
+
+
+
+### 📚 Inspiration 
+
 Like the Outer Banks' coastline — unpredictable, calm, and wild — this compiler balances simplicity with potential. It transforms compiler design into an exploratory adventure, letting students connect logic with creativity through a themed programming environment.
