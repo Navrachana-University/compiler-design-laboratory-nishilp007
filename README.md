@@ -1,2 +1,78 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/bPoO8GTw)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19532776&assignment_repo_type=AssignmentRepo)
+# 🌊 Outer Banks Compiler: A Coastal-Inspired Programming Tool
+
+## 📜 Project Description
+The **Outer Banks Compiler** is a themed programming language and compiler project inspired by the charm and raw energy of the Outer Banks. Built using powerful tools like **Flex** and **Bison**, it brings a structured yet aesthetically engaging approach to programming language design.
+
+Through simplified syntax and coastal metaphors, it makes learning compiler concepts intuitive and engaging — perfect for academic exploration and creative expression.
+
+---
+
+## 🧭 Design Philosophy
+- 🌅 **Clarity of Horizon** — Maintain simple, readable syntax  
+- 🧭 **Purpose of Voyage** — Each rule and token has a distinct function  
+- 🌊 **Flow of Tides** — Modular phases that smoothly convert source to intermediate code  
+- 🐚 **Elegance and Naturalness** — Themes and identifiers inspired by coastal culture  
+
+---
+
+## 👤 Student Information
+**Student Name:** Vanraj Jhala  
+**Enrollment ID:** 22000419
+
+---
+
+## 📦 Project Components
+| File Name       | Type       | Description                                       |
+|------------------|------------|---------------------------------------------------|
+| `obx.y`          | Y File     | Bison grammar file (defines parsing rules)        |
+| `obx.l`          | L File     | Flex lexer file (defines tokens and regex rules)  |
+| `obx.tab.c`      | C File     | Bison-generated parser logic                      |
+| `obx.tab.h`      | H File     | Token definitions from Bison                      |
+| `lex.yy.c`       | C File     | Flex-generated lexer code                         |
+| `obxc` / `obxc.exe` | Executable | Final compiler binary                          |
+| `sample1.obx`    | OBX File   | Sample program in Outer Banks language            |
+| `output.tac`     | TAC File   | Generated three-address intermediate code         |
+
+---
+
+## ⚙️ How to Compile and Run Outer Banks Programs
+
+### 🔧 Compilation Steps (on Unix/Linux)
+1. **Generate the parser with Bison:**
+   ```bash
+   bison -d obx.y
+2. **Compile everything with GCC:**
+   ```bash
+   gcc lex.yy.c obx.tab.c -o obxc
+3. **Execute a sample OBX program:**
+   ```bash
+   ./obxc sample1.obx
+
+Check the output:
+Intermediate code is saved in output.tac.
+📄 Example Program (sample1.obx)
+obx
+
+Copy
+pogues hideout
+    jj x;
+    treasure x = 42;
+    trade(x);
+hideout
+💻 System Requirements
+GCC Compiler
+Flex (Fast Lexical Analyzer)
+Bison (GNU Parser Generator)
+Unix/Linux shell (preferred)
+🚤 Key Features
+Custom language syntax themed on the Outer Banks
+Tokenization with Flex
+Syntax parsing with Bison
+Intermediate Code Generation (3AC)
+Modular file structure
+Lightweight and educational
+🙏 Acknowledgments
+Prof. Vaibhavi Patel for insightful mentorship and continuous support.
+Nishil Patel for valuable collaboration and testing efforts.
+📚 Inspiration
+Like the Outer Banks' coastline — unpredictable, calm, and wild — this compiler balances simplicity with potential. It transforms compiler design into an exploratory adventure, letting students connect logic with creativity through a themed programming environment.
