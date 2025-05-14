@@ -1,4 +1,4 @@
-# 🌊 Outer Banks Compiler: A Coastal-Inspired Programming Tool
+# 🌊 Outer Banks Compiler: A Coastal-Inspired Programming Tool 
 
 ## 📜 Project Description
 The **Outer Banks Compiler** is a themed programming language and compiler project inspired by the charm and raw energy of the Outer Banks. Built using powerful tools like **Flex** and **Bison**, it brings a structured yet aesthetically engaging approach to programming language design.
